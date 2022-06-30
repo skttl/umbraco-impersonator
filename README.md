@@ -13,7 +13,7 @@ When Impersonator is installed, and you are logged in as a user with access to t
 
 When impersonating another user, the user dialog is used to end impersonation.
 
-![Impersonating a user from the user dialog](docs/impersonatinguser.png)
+![Impersonating a user from the user dialog](docs/impersonating-user.png)
 
 ## Getting started
 
