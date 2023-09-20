@@ -1,0 +1,18 @@
+{
+  "$schema": "../umbraco-package-schema.json",
+  "name": "Our.Umbraco.Impersonator",
+  "version": "14.0.0--preview001",
+  "extensions": [
+    {
+      "type": "userProfileApp",
+      "alias": "impersonator",
+      "name": "Impersonator",
+      "js": "/App_Plugins/umbraco-impersonator/umbraco-impersonator.js",
+      "weight": -1,
+      "meta": {
+        "label": "Impersonator",
+        "pathname": "impersonator"
+      }
+    }
+  ]
+}
