@@ -1,5 +1,26 @@
 {
-  "Category": "Editor Tools",
-  "LicenseTypes": [ "Free" ],
-  "PackageType": "Package"
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json", 
+    "AuthorDetails": {
+      "Name": "Søren Kottal",
+      "Description": "4x Umbraco MVP working as Tech Lead and full stack developer at Ecreo, the Umbraco Gold Partner agency in Odense, Denmark.",
+      "ImageUrl": "https://24days.in/media/cr3nhed0/1644397043794.jpg"
+    },
+    "DocumentationUrl": "https://github.com/skttl/umbraco-impersonator#impersonator",
+    "DiscussionForumUrl": "https://github.com/skttl/umbraco-impersonator/discussions",
+    "IssueTrackerUrl": "https://github.com/skttl/umbraco-impersonator/issues",
+    "Screenshots": [
+      {
+        "ImageUrl": "https://github.com/skttl/umbraco-impersonator/raw/main/docs/impersonate-user.png",
+        "Caption": "When Impersonator is installed, and you are logged in as a user with access to the Users section in Umbraco, you can click your avatar in the upper right corner to impersonate another user."
+      },
+      {
+        "ImageUrl": "https://github.com/skttl/umbraco-impersonator/raw/main/docs/impersonating-user.png",
+        "Caption": "When impersonating another user, the user dialog is used to end impersonation."
+      }
+    ],
+    "Category": "Editor Tools",
+    "LicenseTypes": [ "Free" ],
+    "PackageType": "Package",
+    "Tags": ["impersonate", "impersonation", "editor support", "administrator tools"],
+    "Title": "Impersonator"
 }

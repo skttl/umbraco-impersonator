@@ -25,8 +25,8 @@
         // Get users
         usersResource
           .getPagedResults({
-            pageSize: Number.MAX_SAFE_INTEGER,
-            userStates: ["Active"],
+              pageSize: 2147483647,
+              userStates: ["Active"],
           })
           .then(
             function (data) {
