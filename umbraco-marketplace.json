@@ -18,10 +18,9 @@
         "Caption": "When impersonating another user, the user dialog is used to end impersonation."
       }
     ],
-    "Category": "Developer Tools",
+    "Category": "Editor Tools",
     "LicenseTypes": [ "Free" ],
     "PackageType": "Package",
     "Tags": ["impersonate", "impersonation", "editor support", "administrator tools"],
     "Title": "Impersonator"
-  }
-  
+}
