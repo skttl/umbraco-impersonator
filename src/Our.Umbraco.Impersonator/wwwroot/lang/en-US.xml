@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <language alias="en_us" intName="English (US)" localName="English (US)" lcid="" culture="en-US">
 	<creator>
 		<name>Søren Kottal</name>
@@ -15,6 +15,7 @@
 		<key alias="notSignedIn">You need to be signed in to Umbraco, to be able to impersonate another user.</key>
 		<key alias="userNotFound">The selected user could not be found.</key>
 		<key alias="invalidUserId">The selected user id is invalid.</key>
-		<key alias="notAdministrator">You need administrator rights, to be able to impersonate another user.</key>
+		<key alias="notAdministrator">You need users administrator rights, to be able to impersonate another user.</key>
+		<key alias="noUser">There are no active users to impersonate.</key>
 	</area>
 </language>

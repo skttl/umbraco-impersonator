@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <language alias="da" intName="Danish" localName="dansk" lcid="6" culture="da-DK">
 	<creator>
 		<name>Søren Kottal</name>
@@ -15,6 +15,7 @@
 		<key alias="notSignedIn">Du skal være logget ind i Umbraco for at kunne imitere en anden bruger</key>
 		<key alias="userNotFound">Den valgte bruger kunne ikke findes</key>
 		<key alias="invalidUserId">Det valgte bruger ID er ikke gyldigt</key>
-		<key alias="notAdministrator">Du skal have administratorrettigheder for at kunne imitere en anden bruger</key>
+		<key alias="notAdministrator">Du skal have brugeradministratorrettigheder for at kunne imitere en anden bruger</key>
+		<kay alias="noUser">Der er ingen aktive brugere at imiterer.</kay>
 	</area>
 </language>
