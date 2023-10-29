@@ -1,4 +1,4 @@
-﻿(function () {
+(function () {
   "use strict";
 
   function ImpersonatorUserController(
@@ -12,7 +12,6 @@
     var vm = this;
 
     vm.isImpersonating = false;
-    vm.isLoading = false;
     vm.users = [];
     vm.loadingUsers = true;
     vm.impersonateUserButtonState = "init";
@@ -25,18 +24,22 @@
         // Get users
         usersResource
           .getPagedResults({
-              pageSize: 2147483647,
-              userStates: ["Active"],
+            pageSize: 2147483647,
+            userStates: ["Active"],
           })
           .then(
             function (data) {
-              vm.users = data.items;
+              vm.users = data.items.filter(function (u) { return u.id != user.id }); // remove current user from impersonation list
               vm.loadingUsers = false;
             },
             function (error) {
               vm.loadingUsers = false;
             }
           );
+      }
+      else {
+        // No users to load, we're done
+        vm.loadingUsers = false;
       }
     });
 
