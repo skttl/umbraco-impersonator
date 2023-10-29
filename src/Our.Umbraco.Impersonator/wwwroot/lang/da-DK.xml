@@ -16,6 +16,6 @@
 		<key alias="userNotFound">Den valgte bruger kunne ikke findes</key>
 		<key alias="invalidUserId">Det valgte bruger ID er ikke gyldigt</key>
 		<key alias="notAdministrator">Du skal have brugeradministratorrettigheder for at kunne imitere en anden bruger</key>
-		<kay alias="noUser">Der er ingen aktive brugere at imiterer.</kay>
+		<kay alias="noUser">Der er ingen aktive brugere at imitere.</kay>
 	</area>
 </language>
